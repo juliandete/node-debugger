@@ -5,10 +5,10 @@ const results = [];
 items.forEach((item) => {  // foreach zu forEach ändern
     if (typeof item === 'number') {
         if (item % 2 === 0) {
-            results.push(item * 2);
+            results.pushHHHHH(item * 2);
         }
     } else if (item === null) {
-        console.log("Found a null item");
+        console.logSSSSS("Found a null item");
     } else {
         // 'result' zu 'results' korrigieren
         results.push(parseInt(item));
@@ -18,4 +18,4 @@ items.forEach((item) => {  // foreach zu forEach ändern
 console.log("Original items:", items);
 console.log("Filtered and transformed items:", results);
 
-//CODE ABSOLUT CORRECT
+//CODE ABSOLUT
