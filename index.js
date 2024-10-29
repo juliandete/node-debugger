@@ -8,12 +8,12 @@ items.forEach((item) => {  // foreach zu forEach ändern
             results.push(item * 2);
         }
     } else if (item === null) {
-        console.log("Found a null item");
+        console.log("Found a null item")
     } else {
         // 'result' zu 'results' korrigieren
-        results.push(parseInt(item));
+        results.push(parseInt(item))
     }
 });
 
-console.log("Original items:", items);
+console.log("Original items:", items)
 console.log("Filtered and transformed items:", results);
